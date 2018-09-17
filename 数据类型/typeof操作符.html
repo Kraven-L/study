@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    console.log('null -> ' + typeof(null))
+    console.log('{} -> ' + typeof {} )
+    console.log(typeof([]))
+    console.log(typeof [] )
+    console.log(typeof 123 )
+    console.log(typeof(typeof([])))
+    console.log(typeof typeof [] )
+    console.log(Object.prototype.toString.apply([]))
+    // 圆括号尽管可以使用，但不是必需的。
+    var abc;
+    console.log(typeof abc ) // 未初始化
+    console.log(typeof efd ) // 未声明的变量
+</script>
+</html>
