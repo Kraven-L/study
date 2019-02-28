@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script>
+  let arr1 =  [4,3, 5, 7, 2, 1, 8, 9, 0, 5, 23, 15, 5, 1, 5, 8]
+
+
+  function f1 (arr){
+    let newArr = []
+    arr.forEach(v=>{
+      if (newArr.indexOf(v) == -1) {
+        newArr.push(v)
+      }
+    })
+    return newArr
+  }
+
+  console.log(f1(arr1))
+</script>
+</html>
